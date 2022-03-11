@@ -22,7 +22,7 @@ h1{
     font-weight: 100;
     color: rgb(216, 216, 216);
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
 }
 #task-form{
 display: flex;
@@ -36,14 +36,15 @@ background-color:rgb(37, 37, 37);
 height:32px;
 border-radius: 9px;
 color: rgb(245, 239, 239);
+padding:2px 11px;
 }
 #newtask-submit{
-    background: rgb(20, 0, 0);
+    background: rgb(44, 38, 38);
     border: none;
     width: 62px;
     height:32px;
     border-radius: 9px;
-    color: rgb(235, 177, 19);
+    color: rgb(19, 235, 217);
     margin-left: 10px;
     font-weight: 600;
     cursor: pointer;
@@ -68,11 +69,71 @@ h2{
     font-weight: 400;
     color: rgb(216, 216, 216);
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
-#tasks{
+#tasks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
+    flex-direction: row;
+}
+.text{
+    width: 263%;
+    background: none;
+    border: none;
+    border: 2px solid rgb(37, 37, 37);
+    background-color: rgb(37, 37, 37);
+    height: 37px;
+    border-radius: 9px;
+    color: rgb(245, 239, 239);
+    padding:2px 11px;
+}
+#task-action{
+margin-left: 130px;
+}
+#task-action button{
+    margin-right:12px
+}
+.edit{
+    background: none;
+    border: none;
+    width: 62px;
+    height:32px;
+    border-radius: 9px;
+    color: rgb(19, 105, 235);
+    margin-left: 10px;
+    font-weight: 200;
+    cursor: pointer;
+    transition:0.4s;
+    font-size: 1rem;
+}
+.edit:hover{
+    background: rgb(30, 32, 43);
+    opacity: 0.8;
+}
+.edit:active{
+    background: rgb(34, 56, 170);
+    opacity: 0.8;
+}
+.delete{
+    background: none;
+    border: none;
+    width: 62px;
+    height:32px;
+    border-radius: 9px;
+    color: rgb(235, 19, 19);
+    margin-left: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    transition:0.4s;
+    font-size: 1rem;
+}
+.delete:hover{
+    background: rgb(30, 32, 43);
+    opacity: 0.8;
+}
+.delete:active{
+    background: rgb(34, 56, 170);
+    opacity: 0.8;
 }
