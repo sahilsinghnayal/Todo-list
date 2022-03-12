@@ -137,3 +137,6 @@ margin-left: 130px;
     background: rgb(34, 56, 170);
     opacity: 0.8;
 }
+li {
+    text-decoration: none;
+}
