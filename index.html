@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO-List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TODO</title>
+  </head>
+  <body>
     <header>
-        <h1>WELCOME TO TODO LIST</h1>
-        <form id ="task-form"> 
-        <input type="text" id="task-input" placeholder="what have you planned">
-        <button id ="newtask-submit">ADD</button>
-        </form>
+      <h1>MY TODO LIST</h1>
     </header>
-    <main>
-        <section class="task-list">     
-            <h2>TASKS</h2>
-            <div id="tasks">
-                <ul id="text">
 
-                </ul>
-                <!-- <div id="task-content">
-                    <input 
-                    type="text"
-                    class="text"
-                    value="yooooo"
-                    readonly>
-                </div>
-                <div id="task-action">
-                    <button class="edit">EDIT</button>
-                    <button class="delete">DELETE</button>
-                </div> -->
-            </div>
-       
+    <form>
+      <input
+        type="text"
+        class="todo-input"
+        placeholder="what you want to add"/>
+      <button class="todo-button" type="submit">Add</button>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="all">All</option>
+          <option value="active">Active</option>
+          <option value="completed">Completed</option>
+        </select>    
+      </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list">
+            <!-- <div class="todo">
+                <li></li>
+                <button></button>
+            </div> -->
 
-        </div>
-    </section>
-    </main>
-    <script src="jj.js"></script>
-</body>
+        </ul>
+    </div>
+  </body>
+  <script src="jj.js"></script>
 </html>
