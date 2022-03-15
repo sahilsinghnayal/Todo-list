@@ -4,14 +4,20 @@
     box-sizing:border-box;
 }
 body{
-    background: linear-gradient(to right, #ee0979, #ff6a00);
+    /* background: linear-gradient(to right, #ee0979, #ff6a00); */
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+    /* background: linear-gradient(to right, #000000, #434343); */
+    background: linear-gradient(to right, #000428, #004e92);
     font-family: 'Hubballi', cursive;
     color: rgb(245, 248, 250);
     min-height: 100vh;
     
 }
 header{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+    color:rgb(255 106 0);
+    font-weight: bold;
+    /* text-decoration: underline; */
 }
 header,form{
     display: flex;
@@ -26,6 +32,12 @@ header,form{
     margin:2px;
     border-radius: 5px;
     cursor: pointer;
+    background: #343a3f;
+ }
+ 
+
+ form input{
+    color:white;
  }
  button{
     font-weight: 500;
@@ -60,6 +72,7 @@ header,form{
  }
  .todo li{
      flex:1;
+     /* background: #343a3f; */
  }
  .delete-btn{
      background: #ff0000;
