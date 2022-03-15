@@ -1,2 +1,2 @@
 # Todo-list
-HOSTED ON {NETLIFY}(https://mytodosahil.netlify.app/)
+HOSTED ON [NETLIFY](https://mytodosahil.netlify.app/)
